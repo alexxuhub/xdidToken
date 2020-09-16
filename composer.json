@@ -1,0 +1,28 @@
+{
+    "name": "xdapp/xdid-sdk",
+    "description": "xdid for phpsdk",
+    "require": {
+        "php": ">=7.4",
+        "okta/jwt-verifier": "1.0.0",
+        "firebase/php-jwt": "v5.2.0",
+        "guzzlehttp/psr7": "1.6.1",
+        "guzzlehttp/guzzle":"^7.0",
+        "ext-json": "*",
+        "php-http/curl-client": "^2.0@dev"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alex Pang",
+            "email": "alexPang@xd.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "XDIDSdk\\":"src/"
+        }
+    },
+    "require-dev": {
+    }
+}
