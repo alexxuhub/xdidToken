@@ -1,5 +1,5 @@
 {
-    "name": "xdapp/xdid-sdk",
+    "name": "xdid/xdid-sdk",
     "description": "xdid for phpsdk",
     "require": {
         "php": ">=7.4",
